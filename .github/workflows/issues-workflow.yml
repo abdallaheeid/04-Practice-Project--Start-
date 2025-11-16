@@ -1,0 +1,11 @@
+name: Lint, Test and Deploy the Project
+on:
+  issues:
+    types:
+      - opened
+jobs:
+  event-details:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Display Issue Event Details
+        run: echo "Issue Title ${{github.event.issue.title}}"
