@@ -1,4 +1,4 @@
-name: Lint, Test and Deploy the Project
+name: Issue Related workflow
 on:
   issues:
     types:
